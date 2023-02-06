@@ -13,6 +13,10 @@ python-mpv-jsonipc
 `mpv_nowplaying.py:`
 Broadcast currently playing to `dunstify` if any changes.
 
+```
+./mpv_nowplaying.py
+```
+
 ----------------------------------------------------------
 
 `mpv_control.py:`
