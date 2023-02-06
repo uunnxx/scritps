@@ -3,6 +3,7 @@
 import os
 import re
 import subprocess
+import sys
 from python_mpv_jsonipc import MPV
 
 
@@ -30,4 +31,5 @@ def broadcast_filename(name='', data=''):
     subprocess.run(args)
 
 
-broadcast_filename()
+if __name__ == '__main__':
+    broadcast_filename()
